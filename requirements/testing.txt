@@ -1,3 +1,4 @@
 -r base.txt
 selenium==2.47.1
 PyVirtualDisplay==0.1.5
+coverage==3.7.1

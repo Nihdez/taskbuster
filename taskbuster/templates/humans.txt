@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Nicolás Ivanhoe -- Soon to be Developer
 
 # THANKS
 
-    <name>
+    Marina Mele for such a fantastic tutorial.
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    Django
+    HTML5 Boilerplate
+    Twitter Bootstrap
