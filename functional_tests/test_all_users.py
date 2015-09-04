@@ -8,20 +8,15 @@ from django.utils.translation import activate
 from datetime import date
 from django.utils import formats
 
-from pyvirtualdisplay import Display
-
 class HomeNewVisitorTest(StaticLiveServerTestCase):
 
     def setUp(self):
-        self.display = Display(visible=0, size=(1024, 768))
-        self.display.start()
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(3)
         activate('en')
 
     def tearDown(self):
         self.browser.quit()
-        self.display.stop()
 
     def get_full_url(self, namespace):
         return self.live_server_url + reverse(namespace)
